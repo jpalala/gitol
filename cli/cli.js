@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-const gitol = require("index");
+const gitol = require("../index");
