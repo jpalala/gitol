@@ -1,18 +1,20 @@
 # gitol
 
-git oneliners
+GIT OneLiners
 
 ```bash
   npm install -g gitol
 ```
 
-## how to use
+## usage
 
-`gitol` then append any of these options:
+`gitol -g/-l` 
 
- - `-g/--guilt` Shortcut to `git guilt HEAD~1 HEAD`
- - `-l/--log` Shortcut to `git log --pretty=format:"%h - %an, %ar : %s"`
+### oneliner git guilt
 
-## why error when calling from commandline?
+`-g/--guilt` calls `git guilt HEAD~1 HEAD`
 
-i honestly do not know. for now just clone the repo instead and make an alias to /usr/local/bin to the cli.js script? 
+### oneliner git pretty Log
+
+`-l/--log` calls `git log --pretty=format:"%h - %an, %ar : %s"`
+
