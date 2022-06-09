@@ -1,0 +1,43 @@
+{
+  "name": "gitol",
+  "version": "1.0.0",
+  "description": "git cli oneliners tool",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "brace-expansion": "^1.1.11",
+    "balanced-match": "^1.0.0",
+    "fs.realpath": "^1.0.0",
+    "inherits": "^2.0.4",
+    "concat-map": "^0.0.1",
+    "minimatch": "^3.0.4",
+    "once": "^1.4.0",
+    "rechoir": "^0.6.2",
+    "interpret": "^1.2.0",
+    "path-parse": "^1.0.6",
+    "wrappy": "^1.0.2",
+    "inflight": "^1.0.6",
+    "path-is-absolute": "^1.0.1",
+    "shelljs": "^0.8.3",
+    "resolve": "^1.14.2",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpalala/gitol.git"
+  },
+  "keywords": [
+    "git",
+    "commandline"
+  ],
+  "author": "Joe Palala <jose.palala@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpalala/gitol/issues"
+  },
+  "homepage": "https://github.com/jpalala/gitol#readme"
+}
