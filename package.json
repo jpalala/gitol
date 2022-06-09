@@ -36,6 +36,7 @@
   ],
   "author": "Joe Palala <jose.palala@live.com>",
   "license": "ISC",
+  "bin": "cli/cli.js",
   "bugs": {
     "url": "https://github.com/jpalala/gitol/issues"
   },
