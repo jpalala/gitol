@@ -18,3 +18,6 @@ GIT OneLiners
 
 `-l/--log` calls `git log --pretty=format:"%h - %an, %ar : %s"`
 
+### oneliner git config user and email globally
+
+`-c/--config <Your name> <email>` without quotes will call `git config user.name <Your name> && git config --global user.email <email>`  
